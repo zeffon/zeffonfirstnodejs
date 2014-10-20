@@ -15,13 +15,13 @@
 <ul class="list-group">
 
     <li class="list-group-item">
-        <span class="badge"><%= posts.length %></span>
-        与您所搜索的关键词<strong><%= keyword %></strong>相关结果:
+
+        与您所搜索的关键词<strong><%= keyword %></strong>相关结果有<span class="badge"><%= posts.length %></span>个:
     </li>
     <% posts.forEach(function (post, index) { %>
     <li class="list-group-item">
-        <time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time>
-        <a href="/post/<%= post._id %>"><%= post.title %></a>
+        <h4 class="list-group-item-heading"><time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time></h4>
+        <p class="list-group-item-text"><a href="/post/<%= post._id %>"><%= post.title %></a></p>
     </li>
     <%})%>
 </ul>
