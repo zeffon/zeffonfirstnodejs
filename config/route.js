@@ -4,7 +4,7 @@
 
 var Post = require('../app/controllers/post');
 var User = require('../app/controllers/user');
-
+var passport = require('passport');
 var Index = require('../app/controllers/index');
 var _ = require('underscore');
 
