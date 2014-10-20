@@ -59,8 +59,8 @@ app.use(function (err, req, res, next) {
 })
 
 passport.use(new GithubStrategy({
-    clientID:"fdd6fdf1b7b5de1d5c71",
-    clientSecret:"0615b02236c319cb7acb84040f354cc2946f1328",
+    clientID:"ac47ee2374eb47b87caf",
+    clientSecret:"4bdf4214b1fa9dc88629db74bf1515f5e210791a",
     callbackURL:"http://zeffonfirstnodejs.herokuapp.com/login/github/callback"
 }, function (accessToken, refreshToken, profile, done) {
     done(null, profile);
