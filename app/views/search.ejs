@@ -14,9 +14,9 @@
 
 <ul class="list-group">
 
-    <li class="list-group-item pull-left">
-
-        与您所搜索的关键词<strong><%= keyword %></strong>相关结果有<span class="badge"><%= posts.length %></span>个:
+    <li class="list-group-item">
+        <span class="badge pull-left"><%= posts.length %></span>
+        与您所搜索的关键词<strong><%= keyword %></strong>相关结果有个:
     </li>
     <% posts.forEach(function (post, index) { %>
     <li class="list-group-item">
