@@ -27,6 +27,11 @@ module.exports = function (app) {
     app.get('/logout', User.logout);
     app.get('/signin', User.showSignin);
     app.get('/signup', User.showSignup);
+    app.get('/login/github/callback', passport.authenticate("github",{
+        session: false,
+        failureRedirect:"/signin",
+        successFlash:"登录成功"
+    }), User.signinWithGit);
 //
 //    app.get('/admin/user/list', User.singinRequired, User.adminRequired, User.ulist);
 //    app.delete('/admin/user/list', User.singinRequired, User.adminRequired, User.del);

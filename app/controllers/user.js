@@ -8,6 +8,7 @@
 var User = require('../models/user');
 var crypto= require('crypto');
 var _ = require('underscore');
+var passport = require('passport');
 
 
 //signup
@@ -64,6 +65,10 @@ exports.signin = function (req,res) {
     });
 }
 
+exports.signinWithGit = function (req, res) {
+    req.session.user = { name:req.user.username };
+    res.redirect('/');
+}
 exports.logout = function (req,res) {
 //logout
 
