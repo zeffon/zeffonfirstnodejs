@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92c01392-d03c-4017-8632-9665d46f4e6c" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routesOld/index.js" afterPath="" />
+>>>>>>> develop
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="dde97b6c-ab90-40f9-bcbd-bbd47117241e" name="Failed commit: Default" comment="fix the paths of the links &#10;" />
+    <ignored path="oneBlog.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="oneBlog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+<<<<<<< HEAD
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="1494">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding>
+                <marker date="1413796000508" expanded="true" signature="965:1145" placeholder="{...}" />
+                <marker date="1413796000508" expanded="true" signature="1040:1127" placeholder="{&quot;collection&quot;: 'sessions'...}" />
+              </folding>
+=======
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="576">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+              <folding />
+>>>>>>> develop
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75195825" vertical-offset="18" max-vertical-offset="450">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+=======
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1566">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+>>>>>>> develop
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yuzefeng" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="origin_master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/views/tags.ejs" />
+        <option value="$PROJECT_DIR$/views/upload.ejs" />
+        <option value="$PROJECT_DIR$/views/login.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style2.css" />
+        <option value="$PROJECT_DIR$/views/search.ejs" />
+        <option value="$PROJECT_DIR$/views/links.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/jQuery.min.js" />
+        <option value="$PROJECT_DIR$/views/reg.ejs" />
+        <option value="$PROJECT_DIR$/views/archive.ejs" />
+        <option value="$PROJECT_DIR$/views/tag.ejs" />
+        <option value="$PROJECT_DIR$/views/layout.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/article.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/signin.css" />
+        <option value="$PROJECT_DIR$/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/views/post.ejs" />
+        <option value="$PROJECT_DIR$/views/edit.ejs" />
+        <option value="$PROJECT_DIR$/models/db.js" />
+        <option value="$PROJECT_DIR$/model/user.js" />
+        <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/schemas/user.js" />
+        <option value="$PROJECT_DIR$/models/post.js" />
+        <option value="$PROJECT_DIR$/controllers/user.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app/views/signin.js" />
+        <option value="$PROJECT_DIR$/app/views/signup.js" />
+        <option value="$PROJECT_DIR$/app/views/signup.ejs" />
+        <option value="$PROJECT_DIR$/app/views/login.ejs" />
+        <option value="$PROJECT_DIR$/app/models/user.js" />
+        <option value="$PROJECT_DIR$/app/models/post.js" />
+        <option value="$PROJECT_DIR$/app/views/footer.ejs" />
+        <option value="$PROJECT_DIR$/app/views/post.ejs" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/views/edit.ejs" />
+        <option value="$PROJECT_DIR$/app/schemas/user.js" />
+        <option value="$PROJECT_DIR$/app/views/signin.ejs" />
+        <option value="$PROJECT_DIR$/app/views/tag.ejs" />
+        <option value="$PROJECT_DIR$/app/views/archive.ejs" />
+        <option value="$PROJECT_DIR$/app/views/search.ejs" />
+        <option value="$PROJECT_DIR$/app/views/article.ejs" />
+        <option value="$PROJECT_DIR$/app/views/index.ejs" />
+        <option value="$PROJECT_DIR$/app/schemas/post.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/controllers/post.js" />
+        <option value="$PROJECT_DIR$/app/controllers/index.js" />
+        <option value="$PROJECT_DIR$/app/controllers/user.js" />
+        <option value="$PROJECT_DIR$/config/route.js" />
+        <option value="$PROJECT_DIR$/app/views/header.ejs" />
+        <option value="$PROJECT_DIR$/settings.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1375" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+<<<<<<< HEAD
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneBlog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneBlogOld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> develop
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="62" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="159" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="83" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="708" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="63" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="79" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="83" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="800" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/kindeditor" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
+    <configuration default="false" name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="user.js" working-dir="$PROJECT_DIR$/routes">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <RunnerSettings RunnerId="NodeJS.debug" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/models">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/routes">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.user.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.user.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92c01392-d03c-4017-8632-9665d46f4e6c" name="Default" comment="" />
+      <created>1411692339957</created>
+      <updated>1411692339957</updated>
+    </task>
+    <task id="LOCAL-00001" summary="更新至第五章">
+      <created>1411721279496</created>
+      <updated>1411721279496</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新至第7章,出现文章中作者的name属性无法读取">
+      <created>1411822896847</created>
+      <updated>1411822896847</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新至第7章">
+      <created>1411829448636</created>
+      <updated>1411829448636</updated>
+    </task>
+    <task id="LOCAL-00004" summary="更新至第7章">
+      <created>1411871029501</created>
+      <updated>1411871029501</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新至第8章">
+      <created>1411871517252</created>
+      <updated>1411871517252</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add bootstrap&#10;">
+      <created>1412413468791</created>
+      <updated>1412413468791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add the  bootstrap of login&#10;">
+      <created>1412424638903</created>
+      <updated>1412424638903</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add the bootstrap of blog, not finished&#10;">
+      <created>1412435661329</created>
+      <updated>1412435661329</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add the  bootstrap of the blog, not finish&#10;">
+      <created>1412435705590</created>
+      <updated>1412435705590</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add bootstrap&#10;">
+      <created>1412435729106</created>
+      <updated>1412435729106</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add bootstrap finished 1.0&#10;">
+      <created>1412499503629</created>
+      <updated>1412499503629</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add bootstrap finished 1.0&#10;">
+      <created>1412503858941</created>
+      <updated>1412503858941</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add bootstrap finished 1.1&#10;">
+      <created>1412508995642</created>
+      <updated>1412508995642</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add bootstrap finished 1.2&#10;">
+      <created>1412510145584</created>
+      <updated>1412510145584</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add bootstrap finished 1.2&#10;">
+      <created>1412510569653</created>
+      <updated>1412510569653</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add bootstrap finished 1.2&#10;">
+      <created>1412510906881</created>
+      <updated>1412510906881</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix the reg button&#10;">
+      <created>1412511185043</created>
+      <updated>1412511185043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix the reg button&#10;">
+      <created>1412512669125</created>
+      <updated>1412512669125</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix the title cannot display in other user&#10;">
+      <created>1412514340631</created>
+      <updated>1412514340631</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix tag page in the style&#10;">
+      <created>1412515010993</created>
+      <updated>1412515010993</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix tag page in the style&#10;">
+      <created>1412515170584</created>
+      <updated>1412515170584</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix tag page in the style&#10;">
+      <created>1412515397949</created>
+      <updated>1412515397949</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix tag page in the style&#10;">
+      <created>1412515614829</created>
+      <updated>1412515614829</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix tag page in the style&#10;">
+      <created>1412515923067</created>
+      <updated>1412515923067</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix the paths of the links &#10;">
+      <created>1412565755757</created>
+      <updated>1412565755757</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix the paths of the links &#10;">
+      <created>1412594909476</created>
+      <updated>1412594909476</updated>
+    </task>
+    <task id="LOCAL-00027" summary="fix the paths of the links &#10;">
+      <created>1412595180575</created>
+      <updated>1412595180575</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix the paths of the links &#10;">
+      <created>1412595977483</created>
+      <updated>1412595977483</updated>
+    </task>
+    <task id="LOCAL-00029" summary="fix the paths of the links &#10;">
+      <created>1412596416190</created>
+      <updated>1412596416190</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fix the paths of the links &#10;">
+      <created>1412598221409</created>
+      <updated>1412598221409</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix the paths of the links &#10;">
+      <created>1412598345514</created>
+      <updated>1412598345514</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fix the paths of the links &#10;">
+      <created>1412598422368</created>
+      <updated>1412598422368</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fix the paths of the links &#10;">
+      <created>1412599223774</created>
+      <updated>1412599223774</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fix the paths of the links &#10;">
+      <created>1412601455802</created>
+      <updated>1412601455802</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fix the paths of the links &#10;">
+      <created>1412601864616</created>
+      <updated>1412601864616</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix the paths of the kindeditor and the submit button of the post and the edit pages">
+      <created>1412602918832</created>
+      <updated>1412602918832</updated>
+    </task>
+    <task id="LOCAL-00037" summary="get a error of the post fail">
+      <created>1412606389080</created>
+      <updated>1412606389080</updated>
+    </task>
+    <task id="LOCAL-00038" summary="get a error of the post fail">
+      <created>1412606636518</created>
+      <updated>1412606636518</updated>
+    </task>
+    <task id="LOCAL-00039" summary="add the new editor">
+      <created>1412655164246</created>
+      <updated>1412655164246</updated>
+    </task>
+    <task id="LOCAL-00040" summary="add the new editor">
+      <created>1412655590157</created>
+      <updated>1412655590157</updated>
+    </task>
+    <task id="LOCAL-00041" summary="add the new editor">
+      <created>1412655777733</created>
+      <updated>1412655777733</updated>
+    </task>
+    <task id="LOCAL-00042" summary="add the new editor">
+      <created>1412656667432</created>
+      <updated>1412656667432</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add the new editor">
+      <created>1412657765654</created>
+      <updated>1412657765654</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add the new editor">
+      <created>1412658246365</created>
+      <updated>1412658246365</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix the modal of the edit.ejs and the post.ejs">
+      <created>1412685927144</created>
+      <updated>1412685927144</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix the modal of the edit.ejs and the post.ejs">
+      <created>1412993568174</created>
+      <updated>1412993568174</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix the post.ejs">
+      <created>1413181418363</created>
+      <updated>1413181418363</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix the post.ejs in the test mode">
+      <created>1413182129274</created>
+      <updated>1413182129274</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix the post.ejs">
+      <created>1413182283856</created>
+      <updated>1413182283856</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix the edit.ejs">
+      <created>1413182573413</created>
+      <updated>1413182573413</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix the edit.ejs">
+      <created>1413182883412</created>
+      <updated>1413182883412</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix the edit.ejs">
+      <created>1413183328943</created>
+      <updated>1413183328943</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix the edit.ejs">
+      <created>1413183589082</created>
+      <updated>1413183589082</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix the edit.ejs">
+      <created>1413184277748</created>
+      <updated>1413184277749</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix the edit.ejs">
+      <created>1413184586111</created>
+      <updated>1413184586111</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix the edit.ejs">
+      <created>1413186139874</created>
+      <updated>1413186139875</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix the edit.ejs">
+      <created>1413188041279</created>
+      <updated>1413188041279</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix the edit.ejs">
+      <created>1413188426032</created>
+      <updated>1413188426033</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix the edit.ejs">
+      <created>1413188612109</created>
+      <updated>1413188612109</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix the edit.ejs">
+      <created>1413189107375</created>
+      <updated>1413189107375</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix the edit.ejs">
+      <created>1413189800559</created>
+      <updated>1413189800559</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fix the edit.ejs">
+      <created>1413190340067</created>
+      <updated>1413190340067</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix the edit.ejs">
+      <created>1413190849911</created>
+      <updated>1413190849911</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix the edit.ejs">
+      <created>1413191285863</created>
+      <updated>1413191285863</updated>
+    </task>
+    <task id="LOCAL-00065" summary="fix the edit.ejs">
+      <created>1413192581997</created>
+      <updated>1413192581998</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix the edit.ejs">
+      <created>1413192806527</created>
+      <updated>1413192806527</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fix the edit.ejs">
+      <created>1413193079100</created>
+      <updated>1413193079101</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix the edit.ejs">
+      <created>1413193299263</created>
+      <updated>1413193299264</updated>
+    </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00069" summary="fix the  user">
+      <created>1413618099032</created>
+      <updated>1413618099032</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix the base site">
+      <created>1413720068267</created>
+      <updated>1413720068268</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix the base site">
+      <created>1413722132310</created>
+      <updated>1413722132310</updated>
+    </task>
+    <task id="LOCAL-00072" summary="can't delete  the zhuanzai id">
+      <created>1413730249522</created>
+      <updated>1413730249523</updated>
+    </task>
+    <task id="LOCAL-00073" summary="the first version">
+      <created>1413792032948</created>
+      <updated>1413792032949</updated>
+    </task>
+    <task id="LOCAL-00074" summary="the first version">
+      <created>1413792095106</created>
+      <updated>1413792095106</updated>
+    </task>
+    <task id="LOCAL-00075" summary="the first version">
+      <created>1413795893263</created>
+      <updated>1413795893264</updated>
+    </task>
+    <task id="LOCAL-00076" summary="the first version">
+      <created>1413796031609</created>
+      <updated>1413796031609</updated>
+    </task>
+    <task id="LOCAL-00077" summary="the first version">
+      <created>1413796076878</created>
+      <updated>1413796076878</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
+=======
+    <option name="localTasksCounter" value="69" />
+>>>>>>> develop
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="65" y="24" width="1375" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43034482" sideWeight="0.49778107" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25241378" sideWeight="0.499187" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489829" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39586207" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43160692" sideWeight="0.49778107" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2563081" sideWeight="0.499187" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2489829" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39823008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> develop
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2749004" sideWeight="0.50147927" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27310345" sideWeight="0.49778107" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32270917" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920355" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> develop
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="更新至第7章,出现文章中作者的name属性无法读取" />
+    <MESSAGE value="更新至第7章" />
+    <MESSAGE value="更新至第8章" />
+    <MESSAGE value="add the  bootstrap of login&#10;" />
+    <MESSAGE value="add the bootstrap of blog, not finished&#10;" />
+    <MESSAGE value="add the  bootstrap of the blog, not finish&#10;" />
+    <MESSAGE value="add bootstrap&#10;" />
+    <MESSAGE value="add bootstrap finished 1.0&#10;" />
+    <MESSAGE value="add bootstrap finished 1.1&#10;" />
+    <MESSAGE value="add bootstrap finished 1.2&#10;" />
+    <MESSAGE value="fix the reg button&#10;" />
+    <MESSAGE value="fix the title cannot display in other user&#10;" />
+    <MESSAGE value="fix tag page in the style&#10;" />
+    <MESSAGE value="fix the paths of the links &#10;" />
+    <MESSAGE value="fix the paths of the kindeditor and the submit button of the post and the edit pages" />
+    <MESSAGE value="get a error of the post fail" />
+    <MESSAGE value="add the new editor" />
+    <MESSAGE value="fix the modal of the edit.ejs and the post.ejs" />
+    <MESSAGE value="fix the post.ejs in the test mode" />
+    <MESSAGE value="fix the post.ejs" />
+    <MESSAGE value="fix the edit.ejs" />
+    <MESSAGE value="fix the  user" />
+    <MESSAGE value="fix the base site" />
+    <MESSAGE value="can't delete  the zhuanzai id" />
+    <MESSAGE value="the first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="the first version" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="576">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1566">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1494">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4021" max-vertical-offset="4374">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1026">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> develop
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="396">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/connect/examples/cookieSession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="846">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/npm-debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1998" max-vertical-offset="5130">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm8/system/extLibs/nodejs-v0.10.32-src/core-modules-sources/lib/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11833" max-vertical-offset="38862">
+          <caret line="688" column="10" selection-start-line="688" selection-start-column="10" selection-end-line="688" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/mongo_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9833" max-vertical-offset="10530">
+          <caret line="456" column="14" selection-start-line="456" selection-start-column="14" selection-end-line="456" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> develop
+    <entry file="file://$PROJECT_DIR$/public/javascripts/kindeditor-all-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="31662">
+          <caret line="1" column="1021" selection-start-line="1" selection-start-column="1021" selection-end-line="1" selection-end-column="1021" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/kindeditor-all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="182088">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4374">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/hooks/hooks.alt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6430595" vertical-offset="2059" max-vertical-offset="2520">
+          <caret line="127" column="2" selection-start-line="127" selection-start-column="2" selection-end-line="127" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3288" max-vertical-offset="3798">
+          <caret line="191" column="19" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3617" max-vertical-offset="13122">
+          <caret line="209" column="14" selection-start-line="209" selection-start-column="14" selection-end-line="209" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3761" max-vertical-offset="11952">
+          <caret line="211" column="14" selection-start-line="211" selection-start-column="14" selection-end-line="211" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5063" max-vertical-offset="5886">
+          <caret line="290" column="10" selection-start-line="290" selection-start-column="10" selection-end-line="290" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="16846" max-vertical-offset="68688">
+          <caret line="945" column="18" selection-start-line="945" selection-start-column="18" selection-end-line="945" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="576">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> develop
+    <entry file="file://$PROJECT_DIR$/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75195825" vertical-offset="18" max-vertical-offset="450">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="1494">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1413796000508" expanded="true" signature="965:1145" placeholder="{...}" />
+            <marker date="1413796000508" expanded="true" signature="1040:1127" placeholder="{&quot;collection&quot;: 'sessions'...}" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="576">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1494">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+>>>>>>> develop
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

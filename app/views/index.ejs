@@ -1,0 +1,52 @@
+<%- include header %>
+<div class="container">
+<div class="row">
+    <div class="col-sm-8 blog-main">
+        <div class="blog-post">
+            <% if(posts){%>
+                <% posts.forEach(function (post, index) { %>
+                    <p>
+                        <h2 class="blog-post-title" ><a href="/post/<%= post._id %>" style="text-decoration:none;"><%= post.title %></a></h2>
+                    <!--
+                        <a href="/u/<%= post.name %>"><img src="<%= post.head %>" class="r_head" /></a>
+                    </p>-->
+                    <p class="blog-post-meta">
+                        作者：<a href="/u/<%= post.name%>"><%= post.name %></a> |
+                        日期：<%= moment(post.meta.updateAt).format('MM/DD/YYYY')%>
+                        <% if ( post.reprint_info && post.reprint_info.reprint_from ){ %>
+
+                            <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
+                        <% } %>
+                    </p>
+
+                <p><%- post.post %></p>
+
+
+            <div class="info">
+                <span class="btn btn-xs btn-default" disabled="disabled">阅读： <strong><%= post.pv %></strong> </span>
+                <span class="btn btn-xs btn-default" disabled="disabled">
+                    转载：
+                    <% if (post.reprint_info && post.reprint_info.reprint_to) { %>
+                        <strong><%= post.reprint_info.reprint_to.length %></strong>
+                    <% } else { %>
+                        <strong ><%= 0 %></strong>
+                    <% } %>
+                </span>
+            </div>
+
+                <% }); %>
+            <%}%>
+        </div>
+    </div>
+    <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+            <h4>关于</h4>
+            <p>鄙人 <em>余泽锋</em> 作为一名广东二本狗，毕业三年之后恍然大悟，被nodejs深深吸引。这是鄙人基于nodejs的博客，一步一步建设起来真不容易，参考赵坤赵大神的n-blog，非常感谢他，在茫茫网海中及时地遇到他的github，实属大幸。</p>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+<%- include footer %>

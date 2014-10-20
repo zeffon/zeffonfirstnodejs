@@ -1,0 +1,13 @@
+<%- include header %>
+<dl class="archive dl-horizontal">
+
+    <% posts.forEach(function (post, index) { %>
+    <dt>
+        <time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time>
+    </dt>
+    <dd>
+        <a href="/post/<%= post._id %>"><%= post.title %></a>
+    </dd>
+    <%})%>
+</dl>
+<%- include footer %>

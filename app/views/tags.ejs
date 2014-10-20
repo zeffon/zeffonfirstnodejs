@@ -1,0 +1,19 @@
+<%- include header%>
+<!--
+Created by yuzefeng on 14-9-28.
+-->
+<% if( tags && tags.length>0 ){%>
+<% tags.forEach(function (tag, index) { %>
+<h5>
+    <a class="tag label label-primary"  href="/tags/<%= tag %>"><%= tag %></a>
+</h5>
+
+
+
+<% }) %>
+<% } %>
+
+
+
+
+<%- include footer%>

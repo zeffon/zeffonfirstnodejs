@@ -1,0 +1,15 @@
+<br/>
+<div>
+    <ul class="pager">
+        <% if ( !isFirstPage ){ %>
+
+        <li><a class="prepage" href="?p=<%= page - 1 %>">上一页</a></li>
+
+        <% } %>
+        <% if ( !isLastPage ){ %>
+
+        <li><a class="nextPage" href="?p=<%= page + 1 %>">下一页</a></li>
+
+        <% } %>
+    </ul>
+</div>

@@ -1,0 +1,20 @@
+<%- include header%>
+
+
+
+<div class="list-group">
+    <a href="#" class="list-group-item active disabled" >
+        存档：
+    </a>
+
+
+    <% posts.forEach(function (post, index) { %>
+
+
+    <h4><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></h4>
+    <a href="/post/<%= post._id %>" class="list-group-item"><%= post.title%></a>
+
+    <% }) %>
+
+</div>
+<%- include footer%>

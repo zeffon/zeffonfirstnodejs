@@ -1,0 +1,17 @@
+<%- include header%>
+
+<div class="list-group">
+    <a href="#" class="list-group-item active disabled">
+        与 <%= title %> 相关的搜索结果如下：
+    </a>
+
+    <% posts.forEach(function (post, index) { %>
+        <a href="/post/<%= post._id %>" class="list-group-item"><%= post.title%></a>
+    <% }) %>
+</div>
+
+
+
+
+
+<%- include footer%>

@@ -1,0 +1,66 @@
+<%- include header %>
+<form name="formPost" method="post" onSubmit="return checkform()" action="/admin/post/edit">
+
+
+    <div class="row">
+        <h4>标题:</h4>
+        <div class="col-xs-8">
+
+            <input type="text" name="post[title]" class="form-control" value="<%= post.title %>" /><br/>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <h4>标签：</h4>
+
+        <div class="col-xs-2">
+            <input type="text" name="post[tags]" class="form-control" value="<%= post.tags[0] %>" />
+        </div>
+        <div class="col-xs-2">
+            <input type="text" name="post[tags]" class="form-control" value="<%= post.tags[1] %>" />
+        </div>
+        <div class="col-xs-2">
+            <input type="text" name="post[tags]" class="form-control" value="<%= post.tags[2] %>" />
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        <h4>正文：</h4>
+        <div class="col-xs-8">
+            <textarea name="post[post]" id="editor_text" class="form-control" rows="20" cols="50"><%= post.post %></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-offset-7">
+            <input type="button"  class="btn btn-primary btn-sm" value="保存修改" data-toggle="modal" data-target="#myModal2"/>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel2">亲，还需要什么补充的么？</h4>
+                </div>
+                <div class="modal-body">
+                    请确认是否发表？
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">取消</button>
+                    <button type="submit" class="btn btn-primary btn-sm" >确认发表</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+<%- include footer %>

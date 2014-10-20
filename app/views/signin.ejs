@@ -1,0 +1,49 @@
+<%- include header%>
+<!--
+Created by yuzefeng on 14-10-17.
+-->
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+
+            <form method="POST" action="/usr/signin">
+                <div class="modal-header">
+                    登录
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="signinName">
+                            用户名
+                        </label>
+                        <input id="signinName" class="form-control" name="user[name]" type="text"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="signinPassword">
+                            密码
+                        </label>
+                        <input id="signinPassword" class="form-control" name="user[password]" type="password"/>
+                    </div>
+                    <a  href="/login/github">使用github登录</a>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-dafault" type="button" >关闭</button>
+                    <button class="btn btn-success" type="submit" >提交</button>
+
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<%- include footer%>

@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/home/yuzefeng/WebstormProjects/oneBlog',
+6 verbose install   [ 'express',
+6 verbose install     'ejs',
+6 verbose install     'mongodb',
+6 verbose install     'connect-mongo',
+6 verbose install     'connect-flash',
+6 verbose install     'markdown',
+6 verbose install     'mongoose',
+6 verbose install     'passport',
+6 verbose install     'passport-github',
+6 verbose install     'express3-handlebars',
+6 verbose install     'generic pool' ] ]
+7 info preinstall oneBlog@0.0.1
+8 warn package.json functional-javascript-workshop@0.0.27 No repository field.
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping express@3.17.4 /home/yuzefeng/WebstormProjects/oneBlog
+11 verbose already installed skipping ejs@* /home/yuzefeng/WebstormProjects/oneBlog
+12 verbose already installed skipping mongodb@* /home/yuzefeng/WebstormProjects/oneBlog
+13 verbose already installed skipping connect-mongo@* /home/yuzefeng/WebstormProjects/oneBlog
+14 verbose already installed skipping connect-flash@* /home/yuzefeng/WebstormProjects/oneBlog
+15 verbose already installed skipping markdown@* /home/yuzefeng/WebstormProjects/oneBlog
+16 verbose already installed skipping mongoose@* /home/yuzefeng/WebstormProjects/oneBlog
+17 verbose already installed skipping passport@* /home/yuzefeng/WebstormProjects/oneBlog
+18 verbose already installed skipping passport-github@* /home/yuzefeng/WebstormProjects/oneBlog
+19 verbose already installed skipping express3-handlebars@* /home/yuzefeng/WebstormProjects/oneBlog
+20 verbose cache add [ 'generic pool@*', null ]
+21 verbose cache add name=undefined spec="generic pool@*" args=["generic pool@*",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'generic%20pool@*',
+22 verbose parsed url   path: 'generic%20pool@*',
+22 verbose parsed url   href: 'generic%20pool@*' }
+23 verbose cache add name="generic pool" spec="*" args=["generic pool","*"]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: '*',
+24 verbose parsed url   path: '*',
+24 verbose parsed url   href: '*' }
+25 verbose addNamed [ 'generic pool', '*' ]
+26 verbose addNamed [ null, '*' ]
+27 silly lockFile 7cbed0cc-generic-pool generic pool@*
+28 verbose lock generic pool@* /home/yuzefeng/.npm/7cbed0cc-generic-pool.lock
+29 silly addNameRange { name: 'generic pool', range: '*', hasData: false }
+30 verbose request where is /generic%20pool
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 4b7f9543f7c8cfbe
+33 verbose url raw /generic%20pool
+34 verbose url resolving [ 'https://registry.npmjs.org/', './generic%2520pool' ]
+35 verbose url resolved https://registry.npmjs.org/generic%2520pool
+36 verbose request where is https://registry.npmjs.org/generic%2520pool
+37 info trying registry request attempt 1 at 13:43:45
+38 http GET https://registry.npmjs.org/generic%2520pool
+39 http 404 https://registry.npmjs.org/generic%2520pool
+40 verbose headers { date: 'Tue, 30 Sep 2014 05:43:46 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=0',
+40 verbose headers   'content-length': '52',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   age: '0',
+40 verbose headers   'x-served-by': 'cache-ty68-TYO',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1412055826.540706,VS0,VE118',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 silly registry.get cb [ 404,
+41 silly registry.get   { date: 'Tue, 30 Sep 2014 05:43:46 GMT',
+41 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+41 silly registry.get     'content-type': 'application/json',
+41 silly registry.get     'cache-control': 'max-age=0',
+41 silly registry.get     'content-length': '52',
+41 silly registry.get     'accept-ranges': 'bytes',
+41 silly registry.get     via: '1.1 varnish',
+41 silly registry.get     age: '0',
+41 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+41 silly registry.get     'x-cache': 'MISS',
+41 silly registry.get     'x-cache-hits': '0',
+41 silly registry.get     'x-timer': 'S1412055826.540706,VS0,VE118',
+41 silly registry.get     'keep-alive': 'timeout=10, max=50',
+41 silly registry.get     connection: 'Keep-Alive' } ]
+42 silly lockFile 7cbed0cc-generic-pool generic pool@*
+43 silly lockFile 7cbed0cc-generic-pool generic pool@*
+44 error 404 404 Not Found: generic%2520pool
+44 error 404
+44 error 404 'generic%2520pool' is not in the npm registry.
+44 error 404 You should bug the author to publish it
+44 error 404 It was specified as a dependency of 'oneBlog'
+44 error 404
+44 error 404 Note that you can also install from a
+44 error 404 tarball, folder, or http url, or git url.
+45 error System Linux 3.13.0-36-generic
+46 error command "/usr/bin/node" "/usr/bin/npm" "install"
+47 error cwd /home/yuzefeng/WebstormProjects/oneBlog
+48 error node -v v0.10.32
+49 error npm -v 1.4.28
+50 error code E404
+51 verbose exit [ 1, true ]

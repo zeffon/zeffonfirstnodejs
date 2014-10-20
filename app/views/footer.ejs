@@ -1,0 +1,115 @@
+
+
+</article>
+<div class="row">
+<div class="col-md-12">
+    <% if(success){%>
+
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <strong>恭喜您！</strong> <%= success %>
+    </div>
+    <%}%>
+    <%if(error){%>
+
+
+    <div class="alert alert-warning alert-dismissible " role="alert">
+        <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <strong class="text-center">对不起!出现了点小问题。</strong> <%= error %>
+    </div>
+    <%}%>
+
+
+</div>
+</div>
+
+<br/>
+<br/>
+
+
+<!--<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>-->
+
+
+<div class="row">
+
+<div class="blog-footer ">
+
+    <p>Thanks to  <a href="http://www.nodejs.org">nodejs</a> and <a href="http://www.bootcss.com">bootstrap</a>.</p>
+    <p>
+        I'm <a href="https://github.com/zeffon">zeffon</a>
+    </p>
+
+    <p>
+        <a href="#">Back to top</a>
+    </p>
+
+</div>
+</div>
+
+<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!--<script src="//cdn.quilljs.com/0.17.6/quill.js"></script>-->
+<!--<script src="/tinymce/js/tinymce/tinymce.min.js"></script>-->
+<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<!--<script charset="utf-8" type="text/javascript" src="/editor/kindeditor-all-min.js"></script>
+<script charset="utf-8" type="text/javascript" src="/editor/lang/zh-CN.js"></script>-->
+
+<script type="text/javascript">
+
+
+
+    $(document).ready(function(){
+        $(".nav li a").click(function(){
+            $(this).parent().siblings().removeClass("active");
+            $(this).parent().addClass("active");
+        })
+        $('.nav li a').each(function(){
+            if($($(this))[0].href==String(window.location))
+                $(this).parent().addClass('active');
+        });
+    });
+
+    tinymce.init({
+
+
+        selector: "textarea",
+        plugins: [
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen",
+            "insertdatetime media table contextmenu paste"
+        ],
+
+        toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+    });
+    function checkform()
+    {
+
+        if(tinyMCE.get("editor_text").getContent()==="" || tinyMCE.get("editor_text").getContent()===null)
+        {
+            alert("必须输入文章内容");
+            $("textarea").focus();
+            return false;
+        }
+    }
+
+
+    /*
+            var editor;
+            KindEditor.ready(function(K) {
+                editor = K.create('textarea', {
+                    allowImageUpload : false,
+                    items : [
+                        'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic',
+                        'underline', 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright',
+                        'insertorderedlist', 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+                });
+            });*/
+        /*KindEditor.ready(function(K) {
+            window.editor = K.create('#editor_text');
+        });*/
+
+</script>
+
+
+</body>
+</html>
