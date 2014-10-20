@@ -1,6 +1,6 @@
 <%- include header %>
 <dl class="archive dl-horizontal">
-    <span>与您所搜索的关键词<strong><%= post.keyword %></strong>相关结果:</span>
+    <span>与您所搜索的关键词<strong><%= keyword %></strong>相关结果:</span>
     <% posts.forEach(function (post, index) { %>
     <dt>
         <time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time>
