@@ -127,5 +127,25 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+            <% if(success){%>
 
+            <div class="alert alert-success alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <strong>恭喜您！</strong> <%= success %>
+            </div>
+            <%}%>
+            <%if(error){%>
+
+
+            <div class="alert alert-warning alert-dismissible " role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <strong class="text-center">对不起!出现了点小问题。</strong> <%= error %>
+            </div>
+            <%}%>
+
+
+        </div>
+    </div>
 <article>
