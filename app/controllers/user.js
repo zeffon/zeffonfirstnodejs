@@ -64,14 +64,6 @@ exports.signin = function (req,res) {
     });
 }
 
-exports.signinWithGit = function (req,res) {
-
-        req.session.user = { name:req.user.username };
-        res.redirect('/');
-
-}
-
-
 exports.logout = function (req,res) {
 //logout
 

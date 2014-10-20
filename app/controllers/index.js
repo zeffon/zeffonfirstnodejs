@@ -14,21 +14,19 @@ exports.index = function (req,res) {
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
     Post.fetch(function (err, posts) {
-
             if(err){
                 console.log(err);
             }
             res.render('index',{
                 title:'主页',
                 posts: posts,
-//              page:page,
-//              isFirstPage: (page - 1) == 0,
-//              isLastPage: ((page - 1) * 10 + posts.length) == total,
+//                page:page,
+//                isFirstPage:(page - 1) == 0,
+//                isLastPage:((page - 1) * 10 + posts.length) == total,
                 user: req.session.user,
                 success: req.flash('success').toString(),
                 error: req.flash('error').toString()
             });
     });
 }
-
 

@@ -7,7 +7,6 @@ var User = require('../app/controllers/user');
 
 var Index = require('../app/controllers/index');
 var _ = require('underscore');
-var passport = require('passport');
 
 module.exports = function (app) {
 
@@ -27,11 +26,6 @@ module.exports = function (app) {
     app.post('/usr/signin', User.signin);
     app.get('/logout', User.logout);
     app.get('/signin', User.showSignin);
-    app.get("/login/github/callback",passport.authenticate("github",{
-        session: false,
-        failureRedirect:"/signup",
-        successFlash:"登录成功"
-    }), User.signinWithGit);
     app.get('/signup', User.showSignup);
 //
 //    app.get('/admin/user/list', User.singinRequired, User.adminRequired, User.ulist);
@@ -50,7 +44,6 @@ module.exports = function (app) {
     app.get('/archive', User.singinRequired, User.adminRequired, Post.getArchive);
     app.get('/links', User.singinRequired, User.adminRequired, Post.links);
     app.get('/search', User.singinRequired, User.adminRequired, Post.search);
-    app.get('/admin/post/reprint/:id', User.singinRequired, User.adminRequired, Post.reprint);
     app.get('/admin/post/reprint/:id', User.singinRequired, User.adminRequired, Post.reprint);
 
 
