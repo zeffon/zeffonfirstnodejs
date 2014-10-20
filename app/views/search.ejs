@@ -1,6 +1,6 @@
 <%- include header %>
 <dl class="archive dl-horizontal">
-    <span>与您所搜索的关键词<strong><%= keyword %></strong>相关结果:</span>
+    <p>与您所搜索的关键词<strong><%= keyword %></strong>相关结果:</p>
     <% posts.forEach(function (post, index) { %>
     <dt>
         <time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time>
@@ -10,4 +10,19 @@
     </dd>
     <%})%>
 </dl>
+
+
+<ul class="list-group">
+
+    <li class="list-group-item">
+        <span class="badge"><%= posts.length %></span>
+        与您所搜索的关键词<strong><%= keyword %></strong>相关结果:
+    </li>
+    <% posts.forEach(function (post, index) { %>
+    <li class="list-group-item">
+        <time><%= moment(post.meta.updateAt).format('MM/DD/YYYY')%></time>
+        <a href="/post/<%= post._id %>"><%= post.title %></a>
+    </li>
+    <%})%>
+</ul>
 <%- include footer %>
