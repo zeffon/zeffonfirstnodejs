@@ -223,7 +223,7 @@ exports.search = function (req, res) {
                 req.flash('error', err);
             }
             res.render('search',{
-
+                keyword: keyword,
                 posts: posts,
                 success: req.flash('success').toString(),
                 error: req.flash('error').toString()
