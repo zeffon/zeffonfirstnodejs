@@ -61,20 +61,20 @@
     }
 
     function checkNotDup(tags){
-        var warms = "您所填写的标签有重复，请修改";
+        var warn = "您所填写的标签有重复，请修改";
         switch(tags) {
             case 1:
                 if($('.tagOne').attr("value") === $('.tagTwo').attr("value") ||$('.tagOne').attr("value") === $('.tagThree').attr("value"))
 
-                    return warms;
+                    return warn;
                 break;
             case 2:
                 if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $('.tagOne').attr("value") === $('.tagTwo').attr("value"))
-                    return warms;
+                    return warn;
                 break;
             case 3:
                 if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $$('.tagOne').attr("value") === $('.tagThree').attr("value"))
-                    return warms;
+                    return warn;
                 break;
         }
 
