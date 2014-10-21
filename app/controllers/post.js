@@ -277,8 +277,9 @@ exports.reprint = function (req, res) {
         });
 
         postNew = doc;
-
-        delete postNew.prototype._id;
+        postNew._id = Object.prototype._id;
+        delete postNew._id;
+//        delete Object.getPrototypeOf(postNew)._id;
         console.log('-------------------------------------------------------------------' );
         console.log('postNew:' + postNew._id + " " + postNew.hasOwnProperty('_id') );
 //        postNew.save(function (err, post) {
