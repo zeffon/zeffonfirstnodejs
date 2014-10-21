@@ -37,17 +37,7 @@
                 $(this).parent().addClass('active');
         });
 
-        $('.tags').blur(function(){
-            var warn = "您所填写的标签有重复，请修改";
-            if($('.tagOne').attr("value") === $('.tagTwo').attr("value") ||$('.tagOne').attr("value") === $('.tagThree').attr("value")) {
-                return warn;
-            }
-            else if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $('.tagOne').attr("value") === $('.tagTwo').attr("value")) {
-                return warn;
-            }
-            else if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $('.tagOne').attr("value") === $('.tagThree').attr("value")) {
-                return warn;
-            }
+
 
 
 
