@@ -75,6 +75,9 @@
             alert("必须输入文章内容");
             $("textarea").focus();
             return false;
+        }else if(($(".tagOne").val() === $(".tagTwo").val() || $(".tagThree").val() === $(".tagTwo").val()) || $(".tagOne").val() === $(".tagThree").val()){
+            alert("必须输入不同的标签");
+            return false;
         }
     }
 
