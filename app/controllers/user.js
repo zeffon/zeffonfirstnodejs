@@ -50,6 +50,7 @@ exports.signin = function (req,res) {
         }
         if (!user) {
             return res.redirect('/signup');
+
         }
         user.comparePassword(password, function (err, isMatch) {
             if (err) {
@@ -61,6 +62,7 @@ exports.signin = function (req,res) {
                 return res.redirect('/');
             }
             return res.redirect('/signin');
+
         });
     });
 }
@@ -88,7 +90,9 @@ exports.ulist = function (req,res) {
         res.render('userlist',{
             user:req.session.user,
             title:'用户列表页',
-            users: users
+            users: users,
+            success: req.flash('success').toString(),
+            error: req.flash('error').toString()
         })
     })
 }

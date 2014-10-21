@@ -12,8 +12,11 @@ module.exports = function (app) {
 
 //pre handle user
     app.use(function (req,res,next) {
-        var _user = req.session.user;
-        app.locals.user = _user;
+        if(req.session.user){
+            var _user = req.session.user;
+            app.locals.user = _user;
+        }
+
         next();
     });
 
