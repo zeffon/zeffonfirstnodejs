@@ -16,6 +16,7 @@ exports.new = function (req,res) {
             },
             pv:0,
             success: req.flash('success').toString(),
+            warn: req.flash('warn').toString(),
             error: req.flash('error').toString()
 
         });
@@ -81,14 +82,13 @@ exports.detail = function(req, res) {
         if(err){
             console.error(err);
         }
-        console.log('--------------------------------------' + results + '-------------------------');
-        console.log('-------------------------------------------------------------');
-        console.log('-------------------------------------------------------------');
+
         res.render('article', {
 
             user: req.session.user,
             post: results[1],
             success: req.flash('success').toString(),
+            warn: req.flash('warn').toString(),
             error: req.flash('error').toString()
         });
     });
@@ -142,6 +142,7 @@ exports.edit = function (req, res) {
             user: req.session.user,
             post: post,
             success: req.flash('success').toString(),
+            warn: req.flash('warn').toString(),
             error: req.flash('error').toString()
         });
     });
@@ -169,6 +170,7 @@ exports.getArchive = function (req, res) {
                 user: req.session.user,
                 posts: posts,
                 success: req.flash('success').toString(),
+                warn: req.flash('warn').toString(),
                 error: req.flash('error').toString()
             });
         })
@@ -186,6 +188,7 @@ exports.getTags = function (req, res) {
             res.render('tags',{
                 tags: results,
                 success: req.flash('success').toString(),
+                warn: req.flash('warn').toString(),
                 error: req.flash('error').toString()
             });
         });
@@ -205,6 +208,7 @@ exports.getTag = function (req, res) {
                 title: tagNew,
                 posts: results,
                 success: req.flash('success').toString(),
+                warn: req.flash('warn').toString(),
                 error: req.flash('error').toString()
             });
         });
@@ -231,6 +235,7 @@ exports.search = function (req, res) {
                 keyword: keyword,
                 posts: posts,
                 success: req.flash('success').toString(),
+                warn: req.flash('warn').toString(),
                 error: req.flash('error').toString()
             });
         });
@@ -285,12 +290,7 @@ exports.reprint = function (req, res) {
         postNew.title = doc.title;
         postNew.tags = doc.tags;
         postNew.post = doc.post;
-//        postNew.reprint_info = { reprint_from: doc._id };
 
-
-        console.log('-------------------------------------------------------------------' );
-        console.log('postNew:' + postNew + " " + postNew.hasOwnProperty('_id') );
-//        postNew.save(function (err, post) {
         postNew.save(function (err, post) {
                 if(err){
                     req.flash('error', err);
