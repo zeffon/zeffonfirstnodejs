@@ -67,19 +67,13 @@ exports.detail = function(req, res) {
     async.parallel([
         function (callback) {
             Post.update({_id: _id},{$inc:{"pv":1}}, function () {
-                callback(null, 'update');
+                callback(null, 'u');
             });
         },
         function (callback) {
             Post.findById(_id, function (err, post) {
-                res.render('article', {
 
-                    user: req.session.user,
-                    post: post,
-                    success: req.flash('success').toString(),
-                    error: req.flash('error').toString()
-                });
-                callback(null, 'findOnePost');
+                callback(null, post);
             });
         }
 
@@ -87,7 +81,16 @@ exports.detail = function(req, res) {
         if(err){
             console.error(err);
         }
+        console.log('--------------------------------------' + results + '-------------------------');
+        console.log('-------------------------------------------------------------');
+        console.log('-------------------------------------------------------------');
+        res.render('article', {
 
+            user: req.session.user,
+            post: results[1],
+            success: req.flash('success').toString(),
+            error: req.flash('error').toString()
+        });
     });
 }
 
