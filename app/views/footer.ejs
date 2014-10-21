@@ -59,6 +59,25 @@
             return false;
         }
     }
+    function checkNotDup(tags){
+        var warms = "列表框的值不能一样";
+        switch(value) {
+            case 1:
+                if($('.tagOne').attr("value") === $('.tagTwo').attr("value") ||$('.tagOne').attr("value") === $('.tagThree').attr("value"))
+
+                    return warms;
+                break;
+            case 2:
+                if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $('.tagOne').attr("value") === $('.tagTwo').attr("value"))
+                    return warms;
+                break;
+            case 3:
+                if($('.tagTwo').attr("value") === $('.tagThree').attr("value") || $$('.tagOne').attr("value") === $('.tagThree').attr("value"))
+                    return warms;
+                break;
+        }
+
+    }
 
 
 
