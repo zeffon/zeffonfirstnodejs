@@ -269,10 +269,12 @@ exports.reprint = function (req, res) {
         });
 
 //               将转载生成的副本修改后存入数据库，并返回存储后的文档
-//        var postNew = new Post();
-        var postNew = Object.create(doc);
-
-//        postNew = doc;
+        var postNew = new Post();
+        Object.defineProperties(postNew, {
+            "_id": {
+                configurable: true
+            }
+        });
         delete postNew._id;
         console.log('postNew:' + postNew );
 
@@ -285,7 +287,7 @@ exports.reprint = function (req, res) {
                 res.redirect('/post/' + post._id);
 //            res.redirect('/post/' + post[0]._id);
                 req.flash('success', '转载成功!');
-            })
+            });
 
 //        });
 
