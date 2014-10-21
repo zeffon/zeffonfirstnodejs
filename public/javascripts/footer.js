@@ -19,6 +19,29 @@ $(document).ready(
     $(this).parent().addClass('active');
     });
 
+//return the top
+        $(function($){
+            (function(returnId) {
+                var returnTopBtn = document.getElementById(returnId);
+                var d = document.documentElement;
+                var b = document.body;
+                window.onscroll = set;
+                returnTopBtn.onclick = function() {
+                    returnTopBtn.style.display = "none";
+                    window.onscroll = null;
+                    this.timer = setInterval(function() {
+                            d.scrollTop -= Math.ceil((d.scrollTop + b.scrollTop) * 0.1);
+                            b.scrollTop -= Math.ceil((d.scrollTop + b.scrollTop) * 0.1);
+                            if ((d.scrollTop + b.scrollTop) == 0) clearInterval(returnId.timer, window.onscroll = set);
+                        },
+                        10);
+                };
+                function set() {
+                    returnId.style.display = (d.scrollTop + b.scrollTop > 100) ? 'block': "none"
+                }
+            })('returnTop');
+//        returnTop('returnTop');
+        });
 
     });
 
@@ -59,29 +82,6 @@ $(document).ready(
             return false;
         }
     }
-//return the top
-    $(function($){
-        (function(returnId) {
-            var returnTopBtn = document.getElementById(returnId);
-            var d = document.documentElement;
-            var b = document.body;
-            window.onscroll = set;
-            returnTopBtn.onclick = function() {
-                returnTopBtn.style.display = "none";
-                window.onscroll = null;
-                this.timer = setInterval(function() {
-                        d.scrollTop -= Math.ceil((d.scrollTop + b.scrollTop) * 0.1);
-                        b.scrollTop -= Math.ceil((d.scrollTop + b.scrollTop) * 0.1);
-                        if ((d.scrollTop + b.scrollTop) == 0) clearInterval(returnId.timer, window.onscroll = set);
-                    },
-                    10);
-            };
-            function set() {
-                returnId.style.display = (d.scrollTop + b.scrollTop > 100) ? 'block': "none"
-            }
-        })('returnTop');
-//        returnTop('returnTop');
-    });
 
 
 
