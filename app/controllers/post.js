@@ -68,12 +68,12 @@ exports.detail = function(req, res) {
     async.parallel([
         function (callback) {
             Post.update({_id: _id},{$inc:{"pv":1}}, function () {
-                callback(null, 'r');
+                callback(null, 'update');
             });
         },
         function (callback) {
             Post.findById(_id, function (err, post) {
-                callback(null, post);
+                callback(null, 'findOnePost');
             });
         }
 
@@ -82,7 +82,7 @@ exports.detail = function(req, res) {
         res.render('article', {
 
             user: req.session.user,
-            post: results[1],
+            post: results['findOnePost'],
             success: req.flash('success').toString(),
             error: req.flash('error').toString()
         });
