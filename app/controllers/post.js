@@ -243,7 +243,6 @@ exports.reprint = function (req, res) {
         }
 
 
-        doc.prototype = new Object();
         delete doc._id;
 //        doc._id = undefined;
         doc.name = toName;
@@ -276,6 +275,12 @@ exports.reprint = function (req, res) {
                 configurable: true
             }
         });
+        Object.defineProperties(doc, {
+            "_id": {
+                configurable: true
+            }
+        });
+        delete doc._id;
         postNew = doc;
         delete postNew._id;
         console.log('postNew:' + postNew );
