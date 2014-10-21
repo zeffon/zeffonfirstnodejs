@@ -269,7 +269,7 @@ exports.reprint = function (req, res) {
 
 //               将转载生成的副本修改后存入数据库，并返回存储后的文档
         var postNew = new Post();
-        postNew = doc;
+
         Object.defineProperties(postNew, {
             "_id": {
                 configurable: true
@@ -284,7 +284,7 @@ exports.reprint = function (req, res) {
 
 
         console.log('-------------------------------------------------------------------' );
-        console.log('postNew:' + postNew._id + " " + postNew.hasOwnProperty('_id') );
+        console.log('postNew:' + postNew + " " + postNew.hasOwnProperty('_id') );
 //        postNew.save(function (err, post) {
         postNew.save(function (err, post) {
                 if(err){
