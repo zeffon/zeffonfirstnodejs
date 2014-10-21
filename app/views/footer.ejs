@@ -21,71 +21,8 @@
 <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+<script src="/javascripts/footer.js"></script>
 
-<script type="text/javascript">
-
-
-
-    $(document).ready(function(){
-
-        $(".nav li a").click(function(){
-            $(this).parent().siblings().removeClass("active");
-            $(this).parent().addClass("active");
-        })
-        $('.nav li a').each(function(){
-            if($($(this))[0].href==String(window.location))
-                $(this).parent().addClass('active');
-        });
-
-
-
-
-
-    });
-
-    $(function () {
-        $(".tags").keyup(function () {
-            var i = $(this).val();
-            $(".tags").not($(this)).each(function () {
-                if ($(this).val() == i && $(this).val() != "") {
-                    $(this).css("background", "pink");
-                    alert("有相同内容！");
-                }
-            });
-        });
-    })
-
-    tinymce.init({
-
-
-        selector: "textarea",
-        plugins: [
-            "advlist autolink lists link image charmap print preview anchor",
-            "searchreplace visualblocks code fullscreen",
-            "insertdatetime media table contextmenu paste"
-        ],
-
-        toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
-    });
-    function checkform()
-    {
-
-        if(tinyMCE.get("editor_text").getContent()==="" || tinyMCE.get("editor_text").getContent()===null)
-        {
-            alert("必须输入文章内容");
-            $("textarea").focus();
-            return false;
-        }else if(($(".tagOne").val() === $(".tagTwo").val() || $(".tagThree").val() === $(".tagTwo").val()) || $(".tagOne").val() === $(".tagThree").val()){
-            alert("必须输入不同的标签");
-            return false;
-        }
-    }
-
-
-
-
-
-</script>
 
 
 </body>
