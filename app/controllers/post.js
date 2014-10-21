@@ -276,10 +276,13 @@ exports.reprint = function (req, res) {
             }
         });
 
-        postNew = doc;
-        postNew._id = Object.prototype._id;
-        delete postNew._id;
-//        delete Object.getPrototypeOf(postNew)._id;
+        postNew.name = doc.name;
+        postNew.title = doc.title;
+        postNew.tags = doc.tags;
+        postNew.post = doc.post;
+//        postNew.reprint_info = { reprint_from: doc._id };
+
+
         console.log('-------------------------------------------------------------------' );
         console.log('postNew:' + postNew._id + " " + postNew.hasOwnProperty('_id') );
 //        postNew.save(function (err, post) {

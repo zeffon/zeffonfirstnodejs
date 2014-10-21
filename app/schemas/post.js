@@ -68,10 +68,7 @@ PostSchema.statics = {
     removeById: function (id,cb) {
         return this.remove({_id:id}).exec(cb);
     },
-    insertPost: function (post,cb) {
-        return this.insert(post).exec(cb);
 
-    }
 
 
 }
