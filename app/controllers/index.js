@@ -13,7 +13,10 @@ exports.index = function (req,res) {
     //        判断是否时第一页，并把请求的页数转换成number类型
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
-    Post.fetch(function (err, posts) {
+    Post
+        .fetch()
+        .sort({"meta.updateAt":-1})
+        .exec(function (err, posts) {
             if(err){
                 console.log(err);
             }
