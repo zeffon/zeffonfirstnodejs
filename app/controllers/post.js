@@ -275,16 +275,12 @@ exports.reprint = function (req, res) {
                 configurable: true
             }
         });
-        Object.defineProperties(doc, {
-            "_id": {
-                configurable: true
-            }
-        });
-        delete doc._id;
+
+        postNew = doc;
 
         delete postNew._id;
-        console.log('postNew:' + postNew );
-
+        console.log('-------------------------------------------------------------------' );
+        console.log('postNew:' + postNew._id + " " + postNew.hasOwnProperty('_id') );
 //        postNew.save(function (err, post) {
         postNew.save(function (err, post) {
                 if(err){
