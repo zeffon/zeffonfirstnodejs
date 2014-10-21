@@ -18,9 +18,10 @@ $(document).ready(
     if($($(this))[0].href==String(window.location))
     $(this).parent().addClass('active');
     });
+    }
 
 //return the top
-        $(function($){
+
             (function(returnId) {
                 var returnTopBtn = document.getElementById(returnId);
                 var d = document.documentElement;
@@ -39,11 +40,9 @@ $(document).ready(
                 function set() {
                     returnId.style.display = (d.scrollTop + b.scrollTop > 100) ? 'block': "none"
                 }
-            })('returnTop');
+            })('returnTop')
 //        returnTop('returnTop');
-        });
-
-    });
+    );
 
 
 
