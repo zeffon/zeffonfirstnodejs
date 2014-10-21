@@ -14,7 +14,7 @@ exports.index = function (req,res) {
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
     Post
-        .fetch()
+        .find()
         .sort({"meta.updateAt":-1})
         .exec(function (err, posts) {
             if(err){
