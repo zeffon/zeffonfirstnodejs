@@ -69,14 +69,17 @@
     });
     function checkform()
     {
+        $("#myModalLabel").val("亲，还需要什么补充的么？");
 
         if(tinyMCE.get("editor_text").getContent()==="" || tinyMCE.get("editor_text").getContent()===null)
         {
-            alert("必须输入文章内容");
+//            alert("必须输入文章内容");
+            $("#myModalLabel").val("必须输入文章内容");
             $("textarea").focus();
             return false;
         }else if(($(".tagOne").val() === $(".tagTwo").val() || $(".tagThree").val() === $(".tagTwo").val()) || $(".tagOne").val() === $(".tagThree").val()){
-            alert("必须输入不同的标签");
+//            alert("必须输入不同的标签");
+            $("#myModalLabel").val("必须输入不同的标签");
             return false;
         }
     }
