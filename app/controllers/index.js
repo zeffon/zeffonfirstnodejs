@@ -28,6 +28,7 @@ exports.index = function (req,res) {
 //                isLastPage:((page - 1) * 10 + posts.length) == total,
                 user: req.session.user,
                 success: req.flash('success').toString(),
+                warn: req.flash('warn').toString(),
                 error: req.flash('error').toString()
             });
     });
