@@ -292,6 +292,8 @@ exports.reprint = function (req, res) {
                 }
                 console.log(post);
                 res.redirect('/post/' + post._id);
+                console.log('-------------------------------------------------------------------' );
+                console.log('save postNew:' + post + " " + postNew.hasOwnProperty('_id') );
 //            res.redirect('/post/' + post[0]._id);
                 req.flash('success', '转载成功!');
             });
