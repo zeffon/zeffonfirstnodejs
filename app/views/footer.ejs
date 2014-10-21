@@ -43,6 +43,18 @@
 
     });
 
+    $(function () {
+        $(".tags").keyup(function () {
+            var i = $(this).val();
+            $(".tags").not($(this)).each(function () {
+                if ($(this).val() == i && $(this).val() != "") {
+                    $(this).css("background", "pink");
+                    alert("有相同内容！");
+                }
+            });
+        });
+    })
+
     tinymce.init({
 
 
