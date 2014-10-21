@@ -269,8 +269,10 @@ exports.reprint = function (req, res) {
         });
 
 //               将转载生成的副本修改后存入数据库，并返回存储后的文档
-        var postNew = new Post();
-        postNew = doc;
+//        var postNew = new Post();
+        var postNew = Object.create(doc);
+
+//        postNew = doc;
         delete postNew._id;
         console.log('postNew:' + postNew );
 
