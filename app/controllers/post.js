@@ -286,7 +286,7 @@ exports.reprint = function (req, res) {
         console.log('postNew:' + postNew );
 
 //        postNew.save(function (err, post) {
-            Post.insertPost(postNew, function (err, post) {
+        postNew.save(function (err, post) {
                 if(err){
                     req.flash('error', err);
                 }
