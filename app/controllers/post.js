@@ -13,7 +13,6 @@ exports.new = function (req,res) {
             user: req.session.user,
             post: {},
             reprint_info: {
-
             },
             pv:0,
             success: req.flash('success').toString(),
@@ -73,19 +72,22 @@ exports.detail = function(req, res) {
         },
         function (callback) {
             Post.findById(_id, function (err, post) {
+                res.render('article', {
+
+                    user: req.session.user,
+                    post: post,
+                    success: req.flash('success').toString(),
+                    error: req.flash('error').toString()
+                });
                 callback(null, 'findOnePost');
             });
         }
 
     ], function (err,results) {
+        if(err){
+            console.error(err);
+        }
 
-        res.render('article', {
-
-            user: req.session.user,
-            post: results['findOnePost'],
-            success: req.flash('success').toString(),
-            error: req.flash('error').toString()
-        });
     });
 }
 
