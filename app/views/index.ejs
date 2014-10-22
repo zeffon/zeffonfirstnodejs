@@ -8,7 +8,7 @@
 
                 <% if(posts){%>
                 <% posts.forEach(function (post, index) { %>
-                <div class="indexpost" >
+
                 <p>
                 <h2 class="blog-post-title" ><a href="/post/<%= post._id %>" style="text-decoration:none;"><%= post.title %></a></h2>
                 <!--
@@ -42,7 +42,7 @@
                     <% } %>
                 </span>
                 </div>
-                </div>
+
                 <% }); %>
                 <%}%>
 
