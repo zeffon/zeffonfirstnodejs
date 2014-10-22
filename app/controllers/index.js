@@ -15,7 +15,7 @@ exports.index = function (req,res) {
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
     async.parallel([
-        function(callback){
+        function(){
             Post
                 .find()
                 .sort({"meta.updateAt":-1})
@@ -23,7 +23,7 @@ exports.index = function (req,res) {
                     callback(null,posts);
                 });
         },
-        function(callback){
+        function(){
             Post
                 .distinct({},'tags')
                 .exec(function (tags) {
