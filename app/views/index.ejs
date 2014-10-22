@@ -21,6 +21,7 @@
                     <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
                     <% } %>
                     标签：
+                    <span class="glyphicon glyphicon-tags"></span>
                     <% post.tags.forEach(function (tag,index) { %>
                     <a class="tag btn btn-xs btn-info" href="/tags/<%= tag %>"><%= tag %></a>
                     <% }) %>
@@ -62,8 +63,8 @@
             <img src="/images/getface.jpeg" alt="zeffon"/>
             <p>鸟人 <a href="https://github.com/zeffon">zeffon</a> 一个关于javascript、nodejs的转载分享网站。欢迎拍砖。</p>
             <p><address>
-                <a href="https://github.com/zeffon">github:zeffon</a>
-                <a href="mailto:#">email:zephoony@gmail.com</a>
+                <a href="https://github.com/zeffon" class="glyphicon glyphicon-user">&nbsp&nbspzeffon</a>
+                <a href="mailto:#" class="glyphicon glyphicon-envelope">&nbsp&nbspzephoony@gmail.com</a>
             </address></p>
         </div>
         <div class="sidebar-module sidebar-module-inset">
