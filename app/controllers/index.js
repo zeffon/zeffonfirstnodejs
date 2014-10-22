@@ -20,14 +20,14 @@ exports.index = function (req,res) {
                 .find()
                 .sort({"meta.updateAt":-1})
                 .exec(function (posts) {
-                    callback(null,posts);
+                    return posts;
                 });
         },
         function(){
             Post
                 .distinct({},'tags')
                 .exec(function (tags) {
-                    callback(null,tags);
+                    return tags;
                 });
         }
         
