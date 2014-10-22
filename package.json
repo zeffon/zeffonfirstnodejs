@@ -11,6 +11,7 @@
     "bootstrap": "*",
     "connect-flash": "*",
     "connect-mongo": "*",
+    "duoshuo": "^0.3.0",
     "ejs": "*",
     "express": "3.17.4",
     "express3-handlebars": "*",
