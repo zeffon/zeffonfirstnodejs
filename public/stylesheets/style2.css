@@ -233,3 +233,6 @@ a{text-decoration:none;}
     background-color: #eee;
     overflow:hidden;
 }
+.blog-post{
+    height:100%;
+}
