@@ -50,7 +50,7 @@ exports.index = function (req,res) {
             warn: req.flash('warn').toString(),
             error: req.flash('error').toString()
         });
-        callback(null,results);
+
     })
 
 }
