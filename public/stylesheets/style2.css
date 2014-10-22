@@ -124,6 +124,7 @@ h6, .h6 {
     color: #999;
     height:180px;
     overflow: hidden;
+    background-color: #F5F5F5;
 }
 
 
@@ -175,7 +176,7 @@ h6, .h6 {
 
 .blog-post {
     margin-bottom: 60px;
-    background-color: #eee;
+
 }
 .blog-post-title {
     margin-bottom: 5px;
