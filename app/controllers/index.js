@@ -23,7 +23,6 @@ exports.index = function (req,res) {
                 console.log(err);
             }
             Post.distinct({},'tags')
-                .limit(30)
                 .exec(function (err, tags) {
                     if(err){
                         req.flash('error', err);
