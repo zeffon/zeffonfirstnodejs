@@ -5,44 +5,47 @@
 <div class="row">
     <div class="col-sm-8 blog-main">
         <div class="blog-post " >
-            <% if(posts){%>
+            <div style="width:647px;height:647px;background-color: #eee;">
+                <% if(posts){%>
                 <% posts.forEach(function (post, index) { %>
-                    <p>
-                        <h2 class="blog-post-title" ><a href="/post/<%= post._id %>" style="text-decoration:none;"><%= post.title %></a></h2>
-                    <!--
+                <p>
+                <h2 class="blog-post-title" ><a href="/post/<%= post._id %>" style="text-decoration:none;"><%= post.title %></a></h2>
+                <!--
                         <a href="/u/<%= post.name %>"><img src="<%= post.head %>" class="r_head" /></a>
                     </p>-->
-                    <p class="blog-post-meta" >
-                        作者：<a href="/u/<%= post.name%>"><%= post.name %></a> |
-                        日期：<%= moment(post.meta.updateAt).format('MM/DD/YYYY')%>
-                        <% if ( post.reprint_info && post.reprint_info.reprint_from ){ %>
+                <p class="blog-post-meta" >
+                    作者：<a href="/u/<%= post.name%>"><%= post.name %></a> |
+                    日期：<%= moment(post.meta.updateAt).format('MM/DD/YYYY')%>
+                    <% if ( post.reprint_info && post.reprint_info.reprint_from ){ %>
 
-                            <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
-                        <% } %>
-                        标签：
-                        <% post.tags.forEach(function (tag,index) { %>
-                        <a class="tag btn btn-xs btn-info" href="/tags/<%= tag %>"><%= tag %></a>
-                        <% }) %>
+                    <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
+                    <% } %>
+                    标签：
+                    <% post.tags.forEach(function (tag,index) { %>
+                    <a class="tag btn btn-xs btn-info" href="/tags/<%= tag %>"><%= tag %></a>
+                    <% }) %>
 
-                    </p>
+                </p>
 
-                <p style="width:647px;height:647px;background-color: #eee;"><%- post.post %></p>
+                <p><%- post.post %></p>
 
 
-            <div class="info">
-                <span class="btn btn-xs btn-default" disabled="disabled">阅读： <strong><%= post.pv %></strong> </span>
+                <div class="info">
+                    <span class="btn btn-xs btn-default" disabled="disabled">阅读： <strong><%= post.pv %></strong> </span>
                 <span class="btn btn-xs btn-default" disabled="disabled">
                     转载：
                     <% if (post.reprint_info && post.reprint_info.reprint_to) { %>
-                        <strong><%= post.reprint_info.reprint_to.length %></strong>
+                    <strong><%= post.reprint_info.reprint_to.length %></strong>
                     <% } else { %>
-                        <strong ><%= 0 %></strong>
+                    <strong ><%= 0 %></strong>
                     <% } %>
                 </span>
-            </div>
+                </div>
 
                 <% }); %>
-            <%}%>
+                <%}%>
+            </div>
+
         </div>
     </div>
     <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
