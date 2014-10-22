@@ -227,3 +227,8 @@ a{text-decoration:none;}
 .tagspan{
     margin-top:25px;
 }
+.ownPost{
+    width:647px;
+    height:647px;
+    background-color: #eee;
+}
