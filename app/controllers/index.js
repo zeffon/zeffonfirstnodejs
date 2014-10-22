@@ -14,47 +14,33 @@ exports.index = function (req,res) {
     //        判断是否时第一页，并把请求的页数转换成number类型
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
-    async.parallel([
-        function(callback){
-            Post.find(function (err, post) {
-                callback(null, post);
-            });
-           /* Post
-                .find()
-                .sort({"meta.updateAt":-1})
-                .exec(function (posts) {
-                    return posts;
-                });*/
-        },
-        function(){
-            Post
-                .distinct({},'tags')
-                .exec(function (tags) {
-                    return tags;
-                });
-        }
-        
-        
-        
-    ], function (err, results) {
-        if(err){
-            console.log(err);
-        }
-        console.log(results);
-        res.render('index',{
-            title:'主页',
-            posts: results[0],
+
+    Post
+        .find()
+        .sort({"meta.updateAt":-1})
+        .exec(function (err, posts) {
+            if(err){
+                console.log(err);
+            }
+            Post.distinct({},'tags')
+                .exec(function (err, tags) {
+                    if(err){
+                        req.flash('error', err);
+                    }
+
+                    res.render('index',{
+                        title:'主页',
+                        posts: posts,
+                        tags: tags,
 //                page:page,
 //                isFirstPage:(page - 1) == 0,
 //                isLastPage:((page - 1) * 10 + posts.length) == total,
-            user: req.session.user,
-            tags: results[1],
-            success: req.flash('success').toString(),
-            warn: req.flash('warn').toString(),
-            error: req.flash('error').toString()
-        });
+                        user: req.session.user,
+                        success: req.flash('success').toString(),
+                        error: req.flash('error').toString()
+                    });
+                });
 
-    })
-
+    });
 }
 
