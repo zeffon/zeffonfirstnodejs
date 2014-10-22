@@ -227,3 +227,9 @@ a{text-decoration:none;}
 .tagspan{
     margin-top:25px;
 }
+.indexpost{
+    width:647px;
+    height:647px;
+    background-color: #eee;
+    overflow:hidden;
+}
