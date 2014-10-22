@@ -21,17 +21,6 @@ $(document).ready(
 
         $(function(){
 
-            /*    var d = document.documentElement;
-             window.onscroll = set;
-             $('#returnTop').onclick = function (){
-             this.style.display = "none";
-             window.onscroll = null;
-             this.timer = setInterval(function(){
-             d.scrollTop -= Math.ceil(d.scrollTop * 0.1);
-             if(d.scrollTop === 0) clearInterval(this.timer,window.onscroll=set);
-             },10);
-             };
-             function set(){this.style.display = d.scrollTop?'block':"none"}*/
             var bt = $('#returnTop');
             var sw = $(document.body)[0].clientWidth;
 
