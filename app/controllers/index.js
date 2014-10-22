@@ -16,8 +16,7 @@ exports.index = function (req,res) {
 //    res.render('index', { title: 'Express' });
     async.parallel([
         function(callback){
-            Post.findById(_id, function (err, post) {
-
+            Post.find(function (err, post) {
                 callback(null, post);
             });
            /* Post
