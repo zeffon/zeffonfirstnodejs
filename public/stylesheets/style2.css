@@ -208,7 +208,7 @@ a{text-decoration:none;}
     position:fixed;
     right:0;
     bottom:0;
-    border:1px solid white;
-    width:300px;
-    height:250px;
+    border:1px solid #eee;
+    width:30px;
+    height:25px;
 }
