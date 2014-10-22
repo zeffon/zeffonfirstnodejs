@@ -37,6 +37,7 @@ exports.index = function (req,res) {
         if(err){
             console.log(err);
         }
+        console.log(results);
         res.render('index',{
             title:'主页',
             posts: results[0],
