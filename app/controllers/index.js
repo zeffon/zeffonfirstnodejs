@@ -19,38 +19,14 @@ exports.index = function (req,res) {
             Post
                 .find()
                 .sort({"meta.updateAt":-1})
-                .exec(function (err, posts) {
-                    if(err){
-                        console.log(err);
-                    }
-
-                    res.render('index',{
-                        title:'主页',
-                        posts: posts,
-//                page:page,
-//                isFirstPage:(page - 1) == 0,
-//                isLastPage:((page - 1) * 10 + posts.length) == total,
-                        user: req.session.user,
-                        success: req.flash('success').toString(),
-                        warn: req.flash('warn').toString(),
-                        error: req.flash('error').toString()
-                    });
+                .exec(function (posts) {
                     callback(null,posts);
                 });
         },
         function(callback){
             Post
                 .distinct({},'tags')
-                .exec(function (err, tags) {
-                    if(err){
-                        console.log(err);
-                    }
-                    res.render('index',{
-                        user: req.session.user,
-                        tags: tags,
-                        success: req.flash('success').toString(),
-                        error: req.flash('error').toString()
-                    });
+                .exec(function (tags) {
                     callback(null,tags);
                 });
         }
@@ -61,6 +37,18 @@ exports.index = function (req,res) {
         if(err){
             console.log(err);
         }
+        res.render('index',{
+            title:'主页',
+            posts: results[0],
+//                page:page,
+//                isFirstPage:(page - 1) == 0,
+//                isLastPage:((page - 1) * 10 + posts.length) == total,
+            user: req.session.user,
+            tags: results[1],
+            success: req.flash('success').toString(),
+            warn: req.flash('warn').toString(),
+            error: req.flash('error').toString()
+        });
         callback(null,results);
     })
 
