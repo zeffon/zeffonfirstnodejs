@@ -18,6 +18,7 @@ $(document).ready(
     if($($(this))[0].href==String(window.location))
     $(this).parent().addClass('active');
     });
+        BackTop('returnTop');
     }
 
     )
@@ -76,6 +77,6 @@ BackTop=function(btnId){
     };
     function set(){btn.style.display=d.scrollTop?'block':"none"}
 };
-BackTop('returnTop');
+
 
 
