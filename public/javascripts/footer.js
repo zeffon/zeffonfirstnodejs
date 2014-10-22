@@ -18,7 +18,7 @@ $(document).ready(
     if($($(this))[0].href==String(window.location))
     $(this).parent().addClass('active');
     });
-        BackTop('returnTop');
+
     }
 
     )
@@ -63,8 +63,8 @@ $(document).ready(
         }
     }
 
-BackTop=function(btnId){
-    var btn=document.getElementById(btnId);
+$(function(){
+    var btn=document.getElementById('returnTop');
     var d=document.documentElement;
     window.onscroll=set;
     btn.onclick=function (){
@@ -76,7 +76,7 @@ BackTop=function(btnId){
         },10);
     };
     function set(){btn.style.display=d.scrollTop?'block':"none"}
-};
+});
 
 
 
