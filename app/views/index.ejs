@@ -19,6 +19,11 @@
 
                             <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
                         <% } %>
+                        标签：
+                        <% post.tags.forEach(function (tag,index) { %>
+                        <a class="tag btn btn-xs btn-info" href="/tags/<%= tag %>"><%= tag %></a>
+                        <% }) %>
+
                     </p>
 
                 <p><%- post.post %></p>
@@ -44,7 +49,18 @@
         <div class="sidebar-module sidebar-module-inset">
             <h4>关于</h4>
             <img src="/images/getface.jpeg" alt="zeffon"/>
-            <p>鄙人 <a href="https://github.com/zeffon">zeffon</a> 作为一名广东二本狗，毕业三年之后恍然大悟，被nodejs深深吸引。这是鄙人基于nodejs的博客，参考赵坤赵大神的n-blog，非常感谢他，在茫茫网海中及时地遇到他的github，实属大幸。欢迎拍砖。</p>
+            <p>鄙人 <a href="https://github.com/zeffon">zeffon</a> 一个关于javascript、nodejs的文章的转载分享网站。欢迎拍砖。</p>
+        </div>
+        <div class="sidebar-module sidebar-module-inset">
+            <h4>标签</h4>
+            <% if( tags && tags.length>0 ){%>
+            <% tags.forEach(function (tag, index) { %>
+            <h5>
+                <a class="tag label label-primary"  href="/tags/<%= tag %>"><%= tag %></a>
+            </h5>
+
+            <% }) %>
+            <% } %>
         </div>
 
 
