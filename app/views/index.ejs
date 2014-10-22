@@ -5,9 +5,10 @@
 <div class="row">
     <div class="col-sm-8 blog-main">
         <div class="blog-post " >
-            <div style="width:647px;height:647px;background-color: #eee;">
+
                 <% if(posts){%>
                 <% posts.forEach(function (post, index) { %>
+                <div style="width:647px;height:647px;background-color: #eee;">
                 <p>
                 <h2 class="blog-post-title" ><a href="/post/<%= post._id %>" style="text-decoration:none;"><%= post.title %></a></h2>
                 <!--
@@ -41,12 +42,12 @@
                     <% } %>
                 </span>
                 </div>
-
+                </div>
                 <% }); %>
                 <%}%>
-            </div>
 
-        </div>
+
+
     </div>
     <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
         <div class="sidebar-module sidebar-module-inset">
