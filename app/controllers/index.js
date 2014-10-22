@@ -15,13 +15,17 @@ exports.index = function (req,res) {
 //    var page = req.query.p?parseInt(req.query.p):1;
 //    res.render('index', { title: 'Express' });
     async.parallel([
-        function(){
-            Post
+        function(callback){
+            Post.findById(_id, function (err, post) {
+
+                callback(null, post);
+            });
+           /* Post
                 .find()
                 .sort({"meta.updateAt":-1})
                 .exec(function (posts) {
                     return posts;
-                });
+                });*/
         },
         function(){
             Post
