@@ -20,27 +20,6 @@ $(document).ready(
     });
     }
 
-
-//首先将#back-to-top隐藏
-$("#back-to-top").hide();
-//当滚动条的位置处于距顶部100像素以下时，跳转链接出现，否则消失
-$(function () {
-    $(window).scroll(function(){
-        if ($(window).scrollTop()>100){
-            $("#back-to-top").fadeIn(1500);
-        }
-        else
-        {
-            $("#back-to-top").fadeOut(1500);
-        }
-    });
-//当点击跳转链接后，回到页面顶部位置
-    $("#back-to-top").click(function(){
-        $('body,html').animate({scrollTop:0},1000);
-        return false;
-    });
-});
-
     )
 
 
@@ -83,6 +62,20 @@ $(function () {
         }
     }
 
-
+BackTop=function(btnId){
+    var btn=document.getElementById(btnId);
+    var d=document.documentElement;
+    window.onscroll=set;
+    btn.onclick=function (){
+        btn.style.display="none";
+        window.onscroll=null;
+        this.timer=setInterval(function(){
+            d.scrollTop-=Math.ceil(d.scrollTop*0.1);
+            if(d.scrollTop==0) clearInterval(btn.timer,window.onscroll=set);
+        },10);
+    };
+    function set(){btn.style.display=d.scrollTop?'block':"none"}
+};
+BackTop('returnTop');
 
 
