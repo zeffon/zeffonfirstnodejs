@@ -14,13 +14,15 @@
                         <a href="/u/<%= post.name %>"><img src="<%= post.head %>" class="r_head" /></a>
                     </p>-->
                 <p class="blog-post-meta" >
-                    作者：<a href="/u/<%= post.name%>"><%= post.name %></a> |
-                    日期：<%= moment(post.meta.updateAt).format('MM/DD/YYYY')%>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <a href="/u/<%= post.name%>"><%= post.name %></a> |
+                    <span class="glyphicon glyphicon-time"></span>
+                    <%= moment(post.meta.updateAt).format('MM/DD/YYYY')%>
                     <% if ( post.reprint_info && post.reprint_info.reprint_from ){ %>
 
                     <br><a class="btn btn-xs btn-default" href="/post/<%= post.reprint_info.reprint_from %>">原文链接</a>
                     <% } %>
-                    标签：
+
                     <span class="glyphicon glyphicon-tags"></span>
                     <% post.tags.forEach(function (tag,index) { %>
                     <a class="tag btn btn-xs btn-info" href="/tags/<%= tag %>"><%= tag %></a>
@@ -63,8 +65,7 @@
             <img src="/images/getface.jpeg" alt="zeffon"/>
             <p>鸟人 <a href="https://github.com/zeffon">zeffon</a> 一个关于javascript、nodejs的转载分享网站。欢迎拍砖。</p>
             <p><address>
-                <a href="https://github.com/zeffon" class="glyphicon glyphicon-user">&nbsp&nbspzeffon</a>
-                <a href="mailto:#" class="glyphicon glyphicon-envelope">&nbsp&nbspzephoony@gmail.com</a>
+                <span class="glyphicon glyphicon-envelope">zephoony@gmail.com</span>
             </address></p>
         </div>
         <div class="sidebar-module sidebar-module-inset">
